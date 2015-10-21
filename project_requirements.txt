@@ -1,0 +1,8 @@
+5 pages
+home page will be about the company
+contact page -> fill out the contact form and it will email us ->php will be used
+product page
+about page - history of the company
+site map -> contains the table of contents for site, links to all the other pages
+pet store - dog, ideas doggy style
+
