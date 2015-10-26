@@ -116,3 +116,6 @@ div ul.navbar-nav li a.nav-link {
 div ul.navbar-nav li a.nav-link:hover {
     color: #FFFFFF;
 }
+
+p {text-align: center;
+}
