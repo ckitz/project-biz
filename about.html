@@ -11,7 +11,7 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
-<link rel="stylesheet" type="text/styles" href="styles.css">
+<link rel="stylesheet" type="text/styles" href="assets/styles.css">
 
 
 </header>
@@ -29,35 +29,39 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">GoPup</a>
+      <a class="navbar-brand" href="#"><img id="mobile-brand" src="assets/gopup_logo.png"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-	
+  
       <ul class="nav navbar-nav">
-	  <li><a href="index.html">Home</a></li>
-      <li class="active"><a href="about.html">About <span class="sr-only">(current)</span></a></li>
-      <li><a href="products.html">Products</a></li>
-	  <li><a href="sitemap.html">Site Map</a></li>
-	  <li><a href="contact.html">Contacts</a></li>
-		
-        <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Menu <span class="caret"></span></a>
+      <li><a class="nav-link" href="index.html">Home</a></li>
+      <li><a class="nav-link" href="about.html">About</a></li>
+      
+      <!--dropdown products-->
+      
+      <li class="dropdown">
+          <a href="products.html" class="dropdown-toggle nav-link" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Products <span class="caret"><span class="sr-only">(current)</span></span></a>
           <ul class="dropdown-menu">
-            <li><a href="about.html">About</a></li>
-            <li><a href="products.html">Products</a></li>
-            <li><a href="Sitemap.html">Site Map</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">One more separated link</a></li>
+            <li><a class="nav-link" href="#dogcollars">Dog Collars</a></li>
+            <li><a class="nav-link" href="#dogbowls">Dog Bowls</a></li>
+            <li><a class="nav-link" href="#dogfood">Dog Food</a></li>
           </ul>
         </li>
-      </ul>
+            
+      <!-- End dropdown products-->
+      
+
+      <li><a class="nav-link" href="sitemap.html">Site Map</a></li>
+      <li><a class="nav-link" href="contact.html">Contacts</a></li>
+    </ul>
+        
 
     </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
+  
+</div><!-- /.container-fluid -->
+
 </nav>
 
 
