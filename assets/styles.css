@@ -42,7 +42,7 @@ li {
 
 
 .landing-banner {
-	max-height: 100%;
+	
 	margin-left: auto;
 	margin-right: auto;
 	max-width: 100%;
@@ -71,7 +71,7 @@ li {
 
 
 .side-banner {
-	height: 100%;
+	
 	text-align: center;
 	background-color: rgb(79, 76, 63);	
 /*	border-top: 1px solid #000000;
@@ -97,8 +97,8 @@ li {
 #mobile-brand {
 	max-width: 30%;
 	margin-top:-45px;
-	/*margin: -15px;
-    margin-left: -15px;*/
+	margin: -15px;
+    margin-left: -15px;
 }
 }
 
@@ -163,6 +163,10 @@ hr {
     height: 1px;
     background-image: linear-gradient(to right, rgba(242, 238, 230, 0), rgba(242, 238, 230, 0.75), rgba(242, 238, 230, 0));
 
+}
+
+.customer {
+	color: rgba(79, 76, 63, .4);
 }
 
 blockquote {
