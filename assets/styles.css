@@ -14,8 +14,11 @@ body {
 
 
 
-
+.navbar {
+	text-align: center;
+}
 .navbar-default {
+
 	background-color: rgb(79, 76, 63);
 	color: rgb(242, 238, 230);
 	border-right: 1px solid rgb(79, 76, 63); 
@@ -126,11 +129,11 @@ p {
 	text-align: center;
 }
 
-.testimonial-head {
+.testimonial {
 	text-align: center;
 }
 
-h2 {
+.test-head {
 	font-size: 5vw;
 	font-family: 'Quartzo';
 }
