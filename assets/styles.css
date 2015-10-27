@@ -8,7 +8,7 @@ body {
 
 @font-face {
   font-family: 'Quartzo';
-  src: url(assets/QUARTZO.ttf);
+  src: url(QUARTZO.ttf);
 }
 
 
@@ -128,22 +128,22 @@ p {
 
 .testimonial-head {
 	text-align: center;
-	font-family: "Quartzo";
 }
 
 h2 {
-	font-family: "Quartzo";
+	font-size: 5vw;
+	font-family: 'Quartzo';
 }
 
 blockquote {
-  background: #f9f9f9;
-  border-left: 10px solid #ccc;
+  background: rgb(219, 212, 187);
+  border-left: 1px solid rgb(79, 76, 63);
   margin: 1.5em 10px;
   padding: 0.5em 10px;
-  quotes: "\201C""\201D""\2018""\2019";
+  quotes: "\201C""\201C""\201C""\201C";
 }
 blockquote:before {
-  color: #ccc;
+  color: rgb(79, 76, 63);
   content: open-quote;
   font-size: 4em;
   line-height: 0.1em;
