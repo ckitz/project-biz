@@ -135,6 +135,13 @@ h2 {
 	font-family: 'Quartzo';
 }
 
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+
+}
+
 blockquote {
   background: rgb(219, 212, 187);
   border-left: 1px solid rgb(79, 76, 63);
