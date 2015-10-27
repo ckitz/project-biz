@@ -12,10 +12,13 @@ body {
 }
 
 
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
 
-
-.navbar {
-	text-align: center;
+.navbar .navbar-collapse {
+    text-align: center;
 }
 .navbar-default {
 
