@@ -132,7 +132,7 @@ blockquote p {
 	padding: 15px 0px;
 }
 
-.form {
+.form, .form-btn {
 	background-color: rgb(219, 212, 187); 
 	color: rgb(79, 76, 63);
 	border: 2px solid rgb(79, 76, 63);
@@ -140,6 +140,19 @@ blockquote p {
 	width: 80%;
 	padding: 5px;
 	margin-bottom: 10px;
+}
+
+.form-btn {
+
+	max-width: 20%;
+	padding-top: 10px;
+	margin-bottom: 0px;
+}
+
+.form-btn:hover {
+	color: orange;
+	border: 2px solid orange;
+	transition: color 0.5s ease;
 }
 
 .email-pic {
