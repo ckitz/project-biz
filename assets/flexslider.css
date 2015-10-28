@@ -95,7 +95,7 @@ html[xmlns] .flexslider .slides {
   height: auto;
 }
 .flex-viewport {
-  max-height: 800px;
+  max-height: 2000px;
   -webkit-transition: all 1s ease;
   -moz-transition: all 1s ease;
   -ms-transition: all 1s ease;
@@ -109,7 +109,7 @@ html[xmlns] .flexslider .slides {
   margin-right: 5px;
 }
 .flex-direction-nav {
-  *height: 0;
+ /* height: 0;*/
 }
 .flex-direction-nav a {
   text-decoration: none;
@@ -203,7 +203,7 @@ html[xmlns] .flexslider .slides {
   margin: 0 6px;
   display: inline-block;
   zoom: 1;
-  *display: inline;
+  /*display: inline;*/
 }
 .flex-control-paging li a {
   width: 11px;
