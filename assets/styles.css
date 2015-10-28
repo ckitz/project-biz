@@ -109,6 +109,39 @@ blockquote p {
   display: inline;
 }
 
+/*CONTACT FORM*/
+
+.contact {
+	margin-top: 20px;
+	text-align: center;
+}
+
+#contact-form {
+	color: rgb(219, 212, 187);
+	background-color: rgb(79, 76, 63);
+	border: 2px solid rgb(79, 76, 63);
+	border-radius: 20px;
+	font-size: 1.2em;
+	text-align: center;
+	max-width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 15px 0px;
+}
+
+.form {
+	background-color: rgb(219, 212, 187); 
+	color: rgb(79, 76, 63);
+	border: 2px solid rgb(79, 76, 63);
+	border-radius: 10px;
+	width: 80%;
+	padding: 5px;
+	margin-bottom: 10px;
+}
+
+.email-pic {
+	margin-top: 40px;
+}
 
 
 
