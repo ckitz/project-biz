@@ -10,7 +10,21 @@
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
 
+<!--Flex Slider CSS-->
+<link rel="stylesheet" href="assets/flexslider.css" type="text/css">
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+<!--Flex Slider jQuery-->
+<script src="assets/jquery.flexslider-min.js"></script>
+
+<!--Flex Slider Script-->
+<script type="text/javascript" charset="utf-8">
+  $(window).load(function() {
+    $('.flexslider').flexslider();
+  });
+</script>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
@@ -59,6 +73,7 @@
 
       <li><a class="nav-link" href="sitemap.html">Site Map</a></li>
       <li><a class="nav-link" href="contact.html">Contacts</a></li>
+
     </ul>
         
 
@@ -67,8 +82,27 @@
 
     
       <div class="row landing-banner">
+
           <div class="col-lg-9 col-sm-9 hero">
+            <div class="flexslider">
+              <ul class="slides">
+                <li>
+                  <img src="assets/img/winter_dog.jpg" />
+                </li>
+                <li>
+                  <img src="assets/img/leashes_collars.jpg" />
+                </li>
+                <li>
+                  <img src="assets/img/gopup_guarantee.jpg" />
+                </li>
+                <li>
+                  <img src="assets/img/x-mas_dog.jpg" />
+                </li>
+              </ul>
+            </div>
           </div>
+
+
 
           <div class="col-lg-3 col-sm-3  side-banner">
             <div class="sbanner-head">
@@ -83,6 +117,8 @@
                     <li class="sbanner-item">Dog Bowls</li>
                     <hr class="sbanner-line">
                     <li class="sbanner-item">Sale Event</li>
+                    <hr class="sbanner-line">
+                    <li>1.800.555.PUPS</li>
                   </ul>
                 </div> 
           </div><!--end col-->
@@ -91,7 +127,7 @@
       <div class="container">
         <div class="row">
           <div class="col-lg-12 testimonial">
-            <h2 class="test-head">What Customers are Saying</h2>
+            <h2 class="test-head">Our Customer's Tails are Wagging!</h2>
             <hr>
           </div>
         </div>
@@ -110,7 +146,7 @@
       </div>
     </div>
   </div>
-    
+
 </div><!-- /.container-fluid -->
 </body>
 
