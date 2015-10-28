@@ -60,17 +60,20 @@ hr {
     border: 0;
     height: 1px;
     background-image: linear-gradient(to right, rgba(79, 76, 63, 0), rgba(79, 76, 63, 0.75), rgba(79, 76, 63, 0));
-
+    margin-top: 0px;
 }
 
 .banner {
 	text-align: center;
 	font-size: 5.5vw;
 	font-family: 'Quartzo';
+	margin-bottom: 0px;
+
 }
 
 .team-banner {
 	margin-top: 30px;
+	
 }
 
 
