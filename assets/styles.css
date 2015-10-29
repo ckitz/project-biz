@@ -39,7 +39,7 @@ div ul.navbar-nav li a.nav-link {
 
 div ul.navbar-nav li a.nav-link:hover {
     color: #FFFFFF;
-    font-size: 1.2em;
+    
 }
 
 p {
@@ -171,30 +171,32 @@ blockquote p {
 
 .prod-row {
 
-	text-align: center;
+	background-color: rgb(219, 212, 187); 
 
 }
 
 
 
 .site-list {
+
 	list-style: none;
 	font-family: Quartzo;
+	
 	font-size: 2em;
 	color: rgb(79, 76, 63);
+	padding: 0px;
 	text-align: center;
+
 }
 
-
-
 .site-list > li {
-	color: rgb(79, 76, 63);
 	border: 2px solid rgb(79, 76, 63);
 	border-radius: 10px;
-	margin-top: 15px;
 	margin-left: auto;
 	margin-right: auto;
-	max-width: 50%;
+	max-width: 40%;
+	margin-top: 40px;
+
 
 }
 
@@ -204,12 +206,17 @@ blockquote p {
 
 .site-list > li:hover {
 	background-color: rgb(79, 76, 63);
-	
 }
 
-.site-list > li > a:hover {
-	color: rgb(219, 212, 187);
+.site-list > li:hover > a {
+	color: rgb(219, 212, 187); 
+	background-color: rgb(79, 76, 63);
 }
+
+
+
+
+
 
 
 
