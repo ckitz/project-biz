@@ -1,9 +1,16 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
 	margin: 0px;
 	padding: 0px;
 	background-color: rgb(219, 212, 187); 
 	color: rgb(79, 76, 63);
 	font-family: 'Nobile', sans-serif;
+   overflow-x: hidden;
+
 }
 
 @font-face {
@@ -12,23 +19,50 @@ body {
 }
 
 
+
 .navbar-default {
 
 	background-color: rgb(79, 76, 63);
 	color: rgb(219, 212, 187);
-	border-right: 1px solid rgb(79, 76, 63); 
-	border-left: 1px solid rgb(79, 76, 63);
+	border: 1px solid rgb(79, 76, 63); 
+
 	border-radius: 0px;
 	margin-bottom: 0px;
 }
 
+.dropdown-menu {
+	background-color: rgb(79, 76, 63);
+}
+
+.dropdown-menu > li:hover > a {
+	background-color: rgb(79, 76, 63);
+}
 
 
 #mobile-brand {
 	max-height: 50px;
-	margin-top: -16px;
-	margin-left: -20px;
+	margin-top: -15px;
+	margin-left: -22px;
 
+}
+
+@media (max-width: 768px) {
+	.navbar-collapse {
+        border-top: 1px solid #000; !important;
+    }
+
+    .navbar-default .navbar-toggle {
+    	border: 2px solid #FFFFFF;
+	}
+
+	.navbar-default .navbar-toggle:hover {
+    	background-color: orange;
+	}	
+
+
+	.navbar-default .navbar-toggle .icon-bar {
+    	background-color: #FFFFFF;
+	}
 }
 
 
@@ -41,6 +75,7 @@ div ul.navbar-nav li a.nav-link:hover {
     color: #FFFFFF;
     
 }
+
 
 p {
 	font-size: 1.4em;
@@ -156,12 +191,13 @@ blockquote p {
 }
 
 .email-pic {
+	max-width: 80%;
 	margin-top: 40px;
 }
 
 .prod-pic {
 	display: block;
-	height: 200px;
+	max-width: 50%;
 	margin-left: auto;
 	margin-right: auto;
 	border: 2px solid rgb(79, 76, 63);
@@ -206,6 +242,7 @@ blockquote p {
 
 .site-list > li:hover {
 	background-color: rgb(79, 76, 63);
+	border: 2px solid orange;
 }
 
 .site-list > li:hover > a {
