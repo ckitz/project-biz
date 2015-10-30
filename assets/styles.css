@@ -195,6 +195,17 @@ blockquote p {
 	margin-top: 40px;
 }
 
+/*PRODUCT STYLES*/
+.prod-head {
+	font-size: 4vw;
+}
+
+@media (max-width: 480px) {
+	.prod-head {
+		font-size: 1.2em;
+	}
+}
+
 .prod-pic {
 	display: block;
 	max-width: 50%;
